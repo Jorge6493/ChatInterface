@@ -1,0 +1,27 @@
+{
+  "name": "chatinterface",
+  "version": "1.0.0",
+  "description": "Use of botmaster",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "call push.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge6493/ChatInterface.git"
+  },
+  "author": "Jorge Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge6493/ChatInterface/issues"
+  },
+  "homepage": "https://github.com/Jorge6493/ChatInterface#readme",
+  "dependencies": {
+    "botmaster-messenger": "^1.2.0",
+    "dotenv": "^5.0.1",
+    "request": "^2.85.0",
+    "vcap_services": "^0.3.4"
+  }
+}
