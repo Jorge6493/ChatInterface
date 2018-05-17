@@ -1,4 +1,2 @@
-url for setting up webhook telegram
+URL for setting up webhook telegram
 https://api.telegram.org/bot<authToken>/setWebhook?url=<'Your Base URL'>/telegram/webhook1234
-
-https://api.telegram.org/bot598334806:AAGxLkucbK-YxWDF20VrD-yjcVaQKPFcojE/setWebhook?url=https://gbmchatbot20.mybluemix.net/telegram/webhookTelegram
