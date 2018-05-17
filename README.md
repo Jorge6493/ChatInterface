@@ -3,9 +3,9 @@ Example of usage of botmaster package to connect to different chat interfaces in
 
 Currently
 Facebook Messenger
+Telegram
 
 Planned
-Telegram
 Twitter
 
 # Requirements
@@ -15,11 +15,14 @@ PAGE_ACCESS_TOKEN
 VERIFY_TOKEN
 APP_SECRET
 
+Telegram
+TELEGRAM_AUTH_TOKEN
+
 # Deploy to bluemix
 Install bluemix CLI
 run commands
 bluemix api SERVER
-bluemix login -u USER -p PASSWORD -o "ORGANIZATION" -s SPACE
+bluemix login -u USER -p PASSWORD -o "ORGANIZATION" -s "SPACE"
 bluemix app push APPNAME
 
 
